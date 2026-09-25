@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* Typography styling for answers, explanations, and roadmaps */
+.prose {
+  color: #1f2937;
+  line-height: 1.65;
+}
+
+.prose p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.prose ul, .prose ol {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-left: 1.25rem;
+}
+
+.prose ul {
+  list-style-type: disc;
+}
+
+.prose ol {
+  list-style-type: decimal;
+}
+
+.prose li {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.prose strong {
+  font-weight: 600;
+  color: #111827;
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4 {
+  font-weight: 700;
+  color: #111827;
+  margin-top: 1rem;
+  margin-bottom: 0.35rem;
+}
+
+.prose h1 { font-size: 1.25rem; }
+.prose h2 { font-size: 1.1rem; }
+.prose h3 { font-size: 1rem; }
+
+.prose hr {
+  border-color: #e5e7eb;
+  margin: 1rem 0;
+}
